@@ -9,8 +9,12 @@
 import random
 
 def generate_random_numbers():
-  a=random.choice([0,1,2,3,4,5,6,7,8,9])
-  b=random.choice([0,1,2,3,4,5,6,7,8,9])
+  '''generate two random numbers and return'''
+  #a=random.choice([0,1,2,3,4,5,6,7,8,9])
+  #b=random.choice([0,1,2,3,4,5,6,7,8,9])
+  #created using a range - helpful for bigger numbers 
+  a=random.choice(list(range(100)))
+  b=random.choice(list(range(20)))
   return a,b
 
 def play_addition():
